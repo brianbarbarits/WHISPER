@@ -4,9 +4,13 @@
 
 What
 
-Who
+### Hardware
 
-Software
+### Software
+
+### Setup
+
+_### Frequently Asked Questions_
 
 ### Licensing
 Use is subject to Janelia Research Campus Software Copyright 1.2 license terms:
