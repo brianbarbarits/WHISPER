@@ -10,17 +10,15 @@ WHISPER is a cost-effective, modular, high channel count data acquisition system
 
 HHMI/Whisper is developed by [Brian Barbarits](https://www.janelia.org/people/brian-barbarits) of the [Tim Harris Lab](https://www.janelia.org/lab/harris-lab-apig) at the Janelia Research Campus of the Howard Hughes Medical Institute.
 
-### Specs
-* Simultanaeous recording from 256 channels 
+### Features
+* Simultanaeous recording from 256 channels
 * 25 kHz per channel sampling rate
-* Up to 192 neural channels using custom headstages (32 ch chronic - W32C and 64ch acute - W64A)
-* d
-* 64 analog/digital auxillary channels 
+* Up to 192 neural channels using custom headstages (W32C and W64A)
+* Up to 64 auxillary channels (32 analog / 32 digital)
 * Expandable to 512 simultaneous channels using a 2nd WHISPER system
-* 
-* 
 
 
+* Headstages utilize on-board biopotential amplifier/multiplexing chip Intan Technologies - RHA2132
 
 
 
