@@ -10,7 +10,7 @@ WHISPER is a cost-effective, modular, high channel count data acquisition system
 
 WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-barbarits) of the [Tim Harris Lab](https://www.janelia.org/lab/harris-lab-apig) at the Janelia Research Campus of the Howard Hughes Medical Institute.
 
-### System Features
+### Key Features
 * Simultanaeous recording from 256 channels
 * 25 kHz per channel sample rate
 * Low input referred noise: 2.82 µVrms (10 kHz BW)
@@ -23,24 +23,26 @@ WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-b
 
 The HHMI/WHISPER Recording System consists of the following key components:
 
-#### * W32C - A lightweight, 32 channel Chronic Headstage for freely moving recordings
-#### * W64A - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments.
+#### W32C - A lightweight, 32 channel Chronic Headstage for freely moving recordings
+
+#### W64A - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments.
+
 #### WB256 - A rack-mountable WHISPER Recording System Breakout Box
-#### NI USB-6366 - A multifunction data acquisition card from National Instruments (part # 782264-01)
-#### Keysight E3630A - DC power supply to provide 6V DC, +5V DC, and -5V DC
+
+#### Data Acquisition Card - National Instruments [USB-6366](http://www.ni.com/en-us/support/model.usb-6366.html) (part # 782264-01)
+
+#### DC Power Supply - Keysight E3630A
 
 ### Software
 [SpikeGLX](https://github.com/billkarsh/SpikeGLX), a high performance, open-source high-speed data logging application, is used to visual data and save it to disk.  The project is located at [https://github.com/billkarsh/SpikeGLX](https://github.com/billkarsh/SpikeGLX) which provides more information including official compiled software releases, a user manual, and list of basic computer requirements.
 
-## Computer Requirements 
+### Computer Requirements 
 * Operating System: Windows XP SP3, 7, 8.1, 10
 * Minimum 4 cores
 * Minimum 2.5 GHz processor speed
 * Min 4 GB RAM
 * Dedicated 2nd hard drive for data streaming 
 * National Instrument Drivers: NI-DAQmx 9 or later (recommend lastest version)
-
-Please check SpikeGLX for the latest 
 
 
 ### Setup
