@@ -23,18 +23,11 @@ WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-b
 
 The HHMI/WHISPER Recording System consists of the following key components:
 
-* **Test Header 1**
-* Test Header 2
-
-#### W32C - A lightweight, 32 channel Chronic Headstage for freely moving recordings
-
-#### W64A - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments.
-
-#### WB256 - A rack-mountable WHISPER Recording System Breakout Box
-
-#### Data Acquisition Card - National Instruments [USB-6366](http://www.ni.com/en-us/support/model.usb-6366.html) (part # 782264-01)
-
-#### DC Power Supply - Keysight E3630A
+* **W32C - A lightweight, 32 channel Chronic Headstage for freely moving recordings**
+* **W64A - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments**
+* **WB256 - A rack-mountable WHISPER Recording System Breakout Box**
+* **Data Acquisition Card - National Instruments [USB-6366](http://www.ni.com/en-us/support/model.usb-6366.html) Multifunction I/O Device (part # 782264-01)**
+* **DC Power Supply - Keysight E3630A**
 
 ### Software
 [SpikeGLX](https://github.com/billkarsh/SpikeGLX), a high performance, open-source high-speed data logging application, is used to visual data and save it to disk.  The project is located at [https://github.com/billkarsh/SpikeGLX](https://github.com/billkarsh/SpikeGLX) which provides more information including official compiled software releases, a user manual, and list of basic computer requirements.
