@@ -20,28 +20,14 @@ WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-b
 * Expandable to 512 simultaneous channels using a 2nd WHISPER system
 
 ### Hardware
+
 The HHMI/WHISPER Recording System consists of the following key components:
+
 #### W32C - A lightweight, 32 channel Chronic Headstage for freely moving recordings
 #### W64A - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments.
 #### WB256 - A rack-mountable WHISPER Recording System Breakout Box
-#### USB-6366 - A multifunction data acquisition card from National Instruments (part # 782264-01)
-#### DC power supply to provide 6V DC, +5V DC, and -5V DC - Keysight Technologies E3630A is recommended
-
-whisper box
-national instruments Hardware
-computer
-Software and Computer Requirements
-The required software is SpikeGLX, an open-source high-speed data logging application optimized for acquiring synchronous high channel data.  The project is located at https://github.com/billkarsh/SpikeGLX, which provides more information including official compiled software releases, a user manual, and list of basic computer requirements (See Table 4).
-
-System Requirement	Value
-Operating System	Windows XP SP3, 7, 8.1, 10
-# of Cores	Minimum 4 cores
-Processor Speed	Minimum 2.5 GHz
-RAM	Minimum 4 GB
-Hard Drive	Dedicated 2nd hard drive for data streaming
-National Instruments Drivers	NI-DAQmx 9 or later (recommend latest version)
-Table 4:  Minimum Computer Specs
-
+#### NI USB-6366 - A multifunction data acquisition card from National Instruments (part # 782264-01)
+#### Keysight E3630A - DC power supply to provide 6V DC, +5V DC, and -5V DC
 
 ### Software
 [SpikeGLX](https://github.com/billkarsh/SpikeGLX), a high performance, open-source high-speed data logging application, is used to visual data and save it to disk.  The project is located at [https://github.com/billkarsh/SpikeGLX](https://github.com/billkarsh/SpikeGLX) which provides more information including official compiled software releases, a user manual, and list of basic computer requirements.
