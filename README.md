@@ -13,11 +13,15 @@ HHMI/Whisper is developed by [Brian Barbarits](https://www.janelia.org/people/br
 ### Specs
 * Simultanaeous recording from 256 channels 
 * 25 kHz per channel sampling rate
-* Up to 192 neural channels using 32 channel chronic headstages (W32C) and/or 64 channel acute headstages (W64A)
+* Up to 192 neural channels using custom headstages (32 ch chronic - W32C and 64ch acute - W64A)
+* d
 * 64 analog/digital auxillary channels 
 * Expandable to 512 simultaneous channels using a 2nd WHISPER system
 * 
 * 
+
+
+
 
 
 multiplexed headstages - using intan chip
