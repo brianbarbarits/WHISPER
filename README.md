@@ -11,9 +11,12 @@ WHISPER is a cost-effective, modular, high channel count data acquisition system
 HHMI/Whisper is developed by [Brian Barbarits](https://www.janelia.org/people/brian-barbarits) of the [Tim Harris Lab](https://www.janelia.org/lab/harris-lab-apig) at the Janelia Research Campus of the Howard Hughes Medical Institute.
 
 ### Specs
-* Simultanaeous recording from 256 channels (expandable to 512 synchronous channels with a 2nd WHISPER system)
-* Each system: 192 neural channels, 64 auxillary channels 
+* Simultanaeous recording from 256 channels 
 * 25 kHz per channel sampling rate
+* Up to 192 neural channels using 32 channel chronic headstages (W32C) and/or 64 channel acute headstages (W64A)
+* 64 analog/digital auxillary channels 
+* Expandable to 512 simultaneous channels using a 2nd WHISPER system
+* 
 * 
 
 
@@ -34,9 +37,7 @@ national instruments Hardware
 computer
 
 ### Software
-WHISPER utilizes [[SpikeGLX](https://github.com/billkarsh/SpikeGLX), a high performance, open-source data logging platform, to visual data and save it to disk.  
-
-Current official release software and support materials can be found here: [http://billkarsh.github.io/SpikeGLX](http://billkarsh.github.io/SpikeGLX).
+WHISPER utilizes [SpikeGLX](https://github.com/billkarsh/SpikeGLX), a high performance, open-source data logging platform, to visual data and save it to disk.  Current official release software and support materials can be found here: [http://billkarsh.github.io/SpikeGLX](http://billkarsh.github.io/SpikeGLX).
 
 ### Setup
 manual
