@@ -23,7 +23,10 @@ WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-b
 
 The HHMI/WHISPER Recording System consists of the following key components:
 
-#### **W32C - A lightweight, 32 channel Chronic Headstage for freely moving recordings**
+* **Test Header 1**
+* Test Header 2
+
+#### W32C - A lightweight, 32 channel Chronic Headstage for freely moving recordings
 
 #### W64A - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments.
 
