@@ -10,26 +10,14 @@ WHISPER is a cost-effective, modular, high channel count data acquisition system
 
 HHMI/Whisper is developed by [Brian Barbarits](https://www.janelia.org/people/brian-barbarits) of the [Tim Harris Lab](https://www.janelia.org/lab/harris-lab-apig) at the Janelia Research Campus of the Howard Hughes Medical Institute.
 
-### Features
-* Simultanaeous recording from 256 channels
-* 25 kHz per channel sampling rate
-* Up to 192 neural channels using custom headstages (W32C and W64A)
+### System Features
+* Simultanaeous recording from 256 channels (expandable to 512 using 2nd WHISPER system)
+* 25 kHz per channel sample rate
+* Low input referred noise: 2.82 µVrms (10 kHz BW)
+* Up to 192 neural channels using custom headstages (32ch chronic (W32C) and 64ch acute (W64A)) 
 * Up to 64 auxillary channels (32 analog / 32 digital)
+* Headstages utilize Intan Technologies RHA2132 biopotential amplifiers with on-chip multiplexing 
 * Expandable to 512 simultaneous channels using a 2nd WHISPER system
-
-
-* Headstages utilize on-board biopotential amplifier/multiplexing chip Intan Technologies - RHA2132
-
-
-
-multiplexed headstages - using intan chip
-filters
-number of aux channels 
-gain of intan chip
-noise 
-input range - headstage
-input range - analog/digital
-cable / wire count
 
 ### Hardware
 acute headstage
@@ -50,7 +38,6 @@ manual
 Use is subject to Janelia Research Campus Software Copyright 1.2 license terms:
 [http://license.janelia.org/license](http://license.janelia.org/license).
 
-The goal of this work was to create a cost-effective, modular, high channel count recording system, which could be used with in-house Janelia or high site count commercial silicon probes to make both chronic and acute extracellular recordings from the brains of awake and behaving animals.  In typical headstage systems, an increase in channel count leads to a proportional increase in the number of wires required to cable the headstage to the data acquisition instrumentation.  A large cable will significantly hinder the performance of an animal during an experiment.  In order to solve this problem, a headstage with on-board multiplexing was designed to reduce the number of cable wires.  The HHMI WHISPER recording system utilizes the Intan Technologies RHA2132 (http://www.intantech.com) which is a fully integrated 32 channel biopotential amplifier chip, with an on-chip 32-to-1 multiplexer.  This chip provides AC coupling, with a high pass pole at 0.1Hz, a low pass pole at 10kHz, and an overall gain of 200.  Up to six of these chips can be connected to the system to obtain 192 channels of neural signal amplification.  Two addition 32-to-1 multiplexers are used to record auxillary inputs for both analog and digital trigger signals, allowing the user 256 channels of recorded data.  The address of each multiplexer is controlled by a simple microcontroller, the PIC32MX250F128D from Microchip (www.microchip.com), whose clock is set by a 48MHz oscillator.  This microcontroller also provides a trigger clock to a 16-bit National Instruments (www.ni.com) data acquisition card, USB-6366, to control when data is sampled, at a 25000 Hz per channel rate. A block diagram of the system is show in Figure 1.  SpikeGLX, an open-source data logging software platform (https://github.com/billkarsh/SpikeGLX), displays the data and saves it to disk.   
 
 Advantages:
 Extremely light weight and compact
