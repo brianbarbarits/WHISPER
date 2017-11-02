@@ -23,11 +23,11 @@ WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-b
 
 The HHMI/WHISPER Recording System consists of the following key components:
 
-* **W32C** - A lightweight, 32 channel Chronic Headstage for freely moving recordings
-* **W64A** - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments
-* **WB256** - A rack-mountable WHISPER Recording System Breakout Box
-* **Data Acquisition Card** - National Instruments USB-6366 Multifunction I/O Device (part # 782264-01)
-* **DC Power Supply** - to provide +6V DC, +5V DC, -5V DC to the system.  Keysight E3630A
+* **W32C** - A lightweight, 32 channel Chronic Headstage for freely moving recordings (custom)
+* **W64A** - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments (custom)
+* **WB256** - A rack-mountable WHISPER Recording System Breakout Box (custom)
+* **Data Acquisition Card** - National Instruments USB-6366 Multifunction I/O Device (part # 782264-01) (COTS)
+* **DC Power Supply** - to provide +6V DC, +5V DC, -5V DC to the system.  Keysight E3630A (COTS)
 
 A full list of commercial of-the-shelf (COTS) components required for a complete WHISPER Recording system is found here: [https://brianbarbarits.github.io/WHISPER/](https://brianbarbarits.github.io/WHISPER/)
 
