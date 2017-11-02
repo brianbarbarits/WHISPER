@@ -6,7 +6,7 @@ WHISPER is a cost-effective, modular, high channel count data acquisition system
 * Compatible with HHMI / Janelia or high site count chronic/acute commercial silicon probes
 * Complimentary to IMEC / Neuropixels probes
 * Open source hardware & software (SpikeGLX)
-* Used in over 20 labs worldwide
+* Used in over 15 labs worldwide
 
 WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-barbarits) of the [Tim Harris Lab](https://www.janelia.org/lab/harris-lab-apig) at the Janelia Research Campus of the Howard Hughes Medical Institute (HHMI).
 
@@ -47,6 +47,7 @@ downloads
 - cots components
 
 ### Design Files
+
 
 ### Licensing
 Use is subject to Janelia Research Campus Software Copyright 1.2 license terms:
