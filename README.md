@@ -47,9 +47,6 @@ A full list of (COTS) components required for a complete WHISPER Recording syste
 ### Getting Started
 A step-by-step instruction manual for setting up and testing both hardware and software for this system is found here: [https://brianbarbarits.github.io/WHISPER/](https://brianbarbarits.github.io/WHISPER/)
 
-### Design Files
-
-
 ### Licensing
 Use is subject to Janelia Research Campus Software Copyright 1.2 license terms:
 [http://license.janelia.org/license](http://license.janelia.org/license).
