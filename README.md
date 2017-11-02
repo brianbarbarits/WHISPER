@@ -27,7 +27,7 @@ The HHMI/WHISPER Recording System consists of the following custom components:
 * **W64A** - *A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments*
 * **WB256** - *A rack-mountable WHISPER Recording System Breakout Box*
 
-And the following commercial of-the-shelf (COTS) components:
+And the following commercial off-the-shelf (COTS) components:
 * **Data Acquisition Card** - *National Instruments USB-6366 Multifunction I/O Device (part # 782264-01)*
 * **DC Power Supply** - *to provide +6V DC, +5V DC, -5V DC to the system.  Keysight E3630A*
 
