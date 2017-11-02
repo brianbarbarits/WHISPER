@@ -21,15 +21,17 @@ WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-b
 
 ### Hardware
 
-The HHMI/WHISPER Recording System consists of the following key components:
+The HHMI/WHISPER Recording System consists of the following custom components:
 
-* **W32C** - A lightweight, 32 channel Chronic Headstage for freely moving recordings - (*Custom*)
-* **W64A** - A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments - (*Custom*)
-* **WB256** - A rack-mountable WHISPER Recording System Breakout Box - (*Custom*)
-* **Data Acquisition Card** - National Instruments USB-6366 Multifunction I/O Device (part # 782264-01) - (*COTS*)
-* **DC Power Supply** - to provide +6V DC, +5V DC, -5V DC to the system.  Keysight E3630A - (*COTS*)
+* **W32C** - *A lightweight, 32 channel Chronic Headstage for freely moving recordings*
+* **W64A** - *A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments*
 
-A full list of commercial of-the-shelf (COTS) components required for a complete WHISPER Recording system is found here: [https://brianbarbarits.github.io/WHISPER/](https://brianbarbarits.github.io/WHISPER/)
+And the following commercial of-the-shelf (COTS) components:
+* **WB256** - *A rack-mountable WHISPER Recording System Breakout Box*
+* **Data Acquisition Card** - *National Instruments USB-6366 Multifunction I/O Device (part # 782264-01)*
+* **DC Power Supply** - *to provide +6V DC, +5V DC, -5V DC to the system.  Keysight E3630A*
+
+A full list of (COTS) components required for a complete WHISPER Recording system is found here: [https://brianbarbarits.github.io/WHISPER/](https://brianbarbarits.github.io/WHISPER/)
 
 ### Software
 [SpikeGLX](https://github.com/billkarsh/SpikeGLX), a high performance, open-source high-speed data logging application, is used to visual data and save it to disk.  The project is located at [https://github.com/billkarsh/SpikeGLX](https://github.com/billkarsh/SpikeGLX) which provides more information including official compiled software releases, a user manual, and list of basic computer requirements.
