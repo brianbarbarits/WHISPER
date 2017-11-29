@@ -8,7 +8,7 @@
 * Open source hardware & software (SpikeGLX)
 * Used in over 15 labs worldwide
 
-WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-barbarits) of the [Tim Harris Lab](https://www.janelia.org/lab/harris-lab-apig) at the Janelia Research Campus of the Howard Hughes Medical Institute (HHMI).
+[WHISPER](https://www.janelia.org/open-science/whisper) is developed by [Brian Barbarits](https://www.janelia.org/people/brian-barbarits) of the [Tim Harris Lab](https://www.janelia.org/lab/harris-lab-apig) at the Janelia Research Campus of the Howard Hughes Medical Institute (HHMI).
 
 ### Features
 * Simultaneous recording from 256 channels
@@ -21,7 +21,7 @@ WHISPER is developed by [Brian Barbarits](https://www.janelia.org/people/brian-b
 
 ### Hardware
 
-The HHMI/WHISPER Recording System consists of the following custom components:
+The [HHMI/WHISPER](https://www.janelia.org/open-science/whisper) Recording System consists of the following custom components:
 
 * **W32C** - *A lightweight, 32 channel Chronic Headstage for freely moving recordings*
 * **W64A** - *A 64 channel Acute Headstage, which is mountable to a stereotactic rod for head fixed experiments*
