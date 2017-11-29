@@ -50,7 +50,7 @@ A full list of (COTS) components required for a complete WHISPER Recording syste
 A step-by-step instruction manual for setting up and testing both hardware and software for this system is found here: [https://brianbarbarits.github.io/WHISPER/](https://brianbarbarits.github.io/WHISPER/)
 
 ### Design Files
-All hardware files are open-source and can be found here: [https://flintbox.com/public/project/20149/](https://flintbox.com/public/project/20149/)
+All hardware files are open-source and can be downloaded here: [https://flintbox.com/public/project/20149/](https://flintbox.com/public/project/20149/)
 
 
 
