@@ -2,7 +2,7 @@
 
 #### *HHMI Silicon Probe Extracellular Recording System*
 
-WHISPER is a cost-effective, modular, high channel count data acquisition system for extracellular neural probes.
+[WHISPER](https://www.janelia.org/open-science/whisper) is a cost-effective, modular, high channel count data acquisition system for extracellular neural probes.
 * Compatible with HHMI / Janelia or high site count chronic/acute commercial silicon probes
 * Complimentary to IMEC / Neuropixels probes
 * Open source hardware & software (SpikeGLX)
@@ -31,6 +31,8 @@ And the following commercial off-the-shelf (COTS) components:
 * **Data Acquisition Card** - *National Instruments USB-6366 Multifunction I/O Device (part # 782264-01)*
 * **DC Power Supply** - *to provide +6V DC, +5V DC, -5V DC to the system.  Keysight E3630A*
 
+
+
 A full list of (COTS) components required for a complete WHISPER Recording system is found here: [https://brianbarbarits.github.io/WHISPER/](https://brianbarbarits.github.io/WHISPER/)
 
 ### Software
@@ -47,6 +49,8 @@ A full list of (COTS) components required for a complete WHISPER Recording syste
 ### Getting Started
 A step-by-step instruction manual for setting up and testing both hardware and software for this system is found here: [https://brianbarbarits.github.io/WHISPER/](https://brianbarbarits.github.io/WHISPER/)
 
-### Licensing
-Use is subject to Janelia Research Campus Software Copyright 1.2 license terms:
-[http://license.janelia.org/license](http://license.janelia.org/license).
+### Design Files
+All hardware files are open-source and can be found here: [https://flintbox.com/public/project/20149/](https://flintbox.com/public/project/20149/)
+
+
+
