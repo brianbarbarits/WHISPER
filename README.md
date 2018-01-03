@@ -36,7 +36,7 @@ And the following commercial off-the-shelf (COTS) components:
 A full list of (COTS) components required for a complete WHISPER Recording system is found here: [https://brianbarbarits.github.io/WHISPER/](https://brianbarbarits.github.io/WHISPER/)
 
 ### Software
-[SpikeGLX](https://github.com/billkarsh/SpikeGLX), a high performance, open-source high-speed data logging application, is used to visual data and save it to disk.  The project is located at [https://github.com/billkarsh/SpikeGLX](https://github.com/billkarsh/SpikeGLX) which provides more information including official compiled software releases, a user manual, and list of basic computer requirements.
+[SpikeGLX](http://billkarsh.github.io/SpikeGLX/), a high performance, open-source high-speed data logging application, is used to visual data and save it to disk.  The project is located at [http://billkarsh.github.io/SpikeGLX/](http://billkarsh.github.io/SpikeGLX/) which provides more information including official compiled software releases, a user manual, and list of basic computer requirements.
 
 ### Computer Requirements
 * Operating System: Windows XP SP3, 7, 8.1, 10
